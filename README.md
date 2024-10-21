@@ -1,54 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduPortal - AI-Powered Marking System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        h2 {
-            color: #0066cc;
-            border-bottom: 2px solid #0066cc;
-            padding-bottom: 5px;
-        }
-        p, li {
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-        pre {
-            background-color: #eee;
-            padding: 10px;
-            border-left: 5px solid #ccc;
-            overflow-x: auto;
-        }
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        ul li::before {
-            content: "•";
-            color: #0066cc;
-            font-weight: bold;
-            display: inline-block;
-            width: 1em;
-        }
-        code {
-            font-family: Consolas, "Courier New", monospace;
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            font-size: 90%;
-        }
-    </style>
-</head>
+
 <body>
 
 <h1>EduPortal</h1>
