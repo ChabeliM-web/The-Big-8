@@ -20,7 +20,7 @@
 <h2>Installation</h2>
 <ol>
     <li>Clone the repository:
-        <pre><code>git clone https://github.com/yourusername/EduPortalCBS.git</code></pre>
+        <pre><code>git clone https://github.com/ChabeliM-web/The-Big-8/EduPortalCBS.git</code></pre>
     </li>
     <li>Navigate to the project directory:
         <pre><code>cd EduPortalCBS</code></pre>
