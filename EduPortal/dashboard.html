@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard: Teacher's Portal</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="dash">
+                <a href="#">
+                    <h1>Edu Portal</h1>
+                </a>
+                <div class="navbar">
+                    <nav>
+                        <ul class="nav-list">
+                            <li><a href="index.html" class="nav active">Mark Algo</a></li><br>
+                            <li><a href="papers.php" class="nav">Previous Papers</a></li><br>
+                            <li><a href="grades.php" class="nav">Grades</a></li><br>
+                            <a href="logout.php" class="nav">Logout</a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <form action="auto_mark.php" method="post" enctype="multipart/form-data" class="file-upload-form">
+                <!-- Question Paper Upload -->
+                <div class="form-group" id="q_paper_div">
+                    <label for="q_paper">Question Paper (PDF):</label><br>
+                    <input type="file" name="q_paper" id="q_paper" accept="application/pdf">
+                    <p class="file-name" id="q_paper_name">No file chosen</p>
+                </div>
+
+                <!-- Answer Sheet Upload -->
+                <div class="form-group" id="a_sheet_div">
+                    <label for="a_sheet">Answer Sheet (Image or PDF):</label><br>
+                    <input type="file" name="a_sheet" id="a_sheet" accept="image/*,application/pdf">
+                    <p class="file-name" id="a_sheet_name">No file chosen</p>
+                </div>
+
+                <button id="btnAl" class="btn-success">Mark</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
