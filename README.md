@@ -50,7 +50,7 @@
 
 <h2>Files and Directories</h2>
 <ul>
-    <li><code>data_preparation.py/code>: This script loads and preprocesses user and school review data from CSV files, handling missing values, displaying data samples, and returning the cleaned data for further use.</li>
+    <li><code>data_preparation.py<code>: This script loads and preprocesses user and school review data from CSV files, handling missing values, displaying data samples, and returning the cleaned data for further use.</li>
     <li><code>evaluate_and_predict.py</code>: This Python script evaluates a Graph Neural Network (GNN) model's performance for school recommendations by generating top 7 school predictions from user review data and calculating precision, recall, F1 score, and Mean Average Precision (MAP) for model accuracy.</li>
     <li><code>generate_user_reviews_with_ids.py</code>: This script generates random reviews and ratings for a set of schools, storing the simulated user feedback in a CSV file for use in training recommendation models or data analysis. </li>
     <li><code>generate_user_reviews_with_ids.csv</code>: Dataset containing user reviews</li>
@@ -59,15 +59,15 @@
     <li><code>gnn_model.py</code>: This script defines a simple Graph Neural Network (GNN) model using PyTorch with a three-layer fully connected architecture and ReLU activation, designed for recommendation or classification tasks.</li>
     <li><code>chat_bot.py</code>: This Python script creates a chatbot using a PyTorch-based deep learning model for intent classification, which vectorizes user input with a pre-trained TF-IDF vectorizer, predicts responses through a neural network, decodes the output with a LabelEncoder, and uses `pyttsx3` for text-to-speech to provide spoken responses.</li>
     <li><code>chatbot_dataset.py</code>:This Python script expands a chatbot's training dataset by generating additional question-answer pairs, introducing variations to the questions, and saving the expanded dataset to a CSV file for improved chatbot training.</li>
-    <li><code>label_encoder_classes.npy</code>:</li>
+    <li><code>label_encoder_classes.npy</code>:The `label_encoder_classes.npy` file stores the classes (labels) used by a LabelEncoder, which maps categorical values to numerical values for model training and prediction.</li>
         <li><code>gauteng_schools.py</code>:This code creates a DataFrame from a dictionary containing various school details in Gauteng and saves it as a CSV file named 'gauteng_schools.csv' for further analysis or use.This code creates a DataFrame from a dictionary containing various school details in Gauteng and saves it as a CSV file named 'gauteng_schools.csv' for further analysis or use.</li>
         <li><code>gauteng_schools.csv</code>:Dataset containing schools and their contact details for more information</li>
     <li><code>train_gnn_model.py</code>: This script trains a Graph Neural Network (GNN) to predict school performance using numeric features, preprocesses the data, defines the model, and optimizes it, then saves and verifies the trained model.</li>
-    <li><code>trained_model.pth</code>: Handles logging out from the system.</li>
+    <li><code>trained_model.pth</code>: The `trained_model.pth` file contains the weights and parameters of a trained machine learning model, saved for later use in making predictions or further training.</li>
     <li><code>train_chatbot_model.py</code>: This script trains an enhanced neural network-based chatbot model to generate responses, including data preprocessing, model training with a weighted loss function, and saving the final model and necessary components for future use.</li>
     <li><code>chatbot_model.pth</code>: The `chatbot_model.pth` file stores the trained parameters of a deep learning model used by the chatbot to generate responses based on user input.</li>
-    <li><code>chatbot_model_best.pth</code>:The `chatbot_model.pth` file stores the trained parameters of a deep learning model used by the chatbot to generate responses based on user input.</li>
-    <li><code>chatbot_model_final.pth </code>:The `chatbot_model.pth` file stores the trained parameters of a deep learning model used by the chatbot to generate responses based on user input.</li>
+    <li><code>chatbot_model_best.pth</code>:The `chatbot_model_best.pth` file stores the trained parameters of a deep learning model used by the chatbot to generate responses based on user input.</li>
+    <li><code>chatbot_model_final.pth </code>:The `chatbot_model_final.pth` file stores the trained parameters of a deep learning model used by the chatbot to generate responses based on user input.</li>
     <li><code>main.py</code>:This script implements a Graph Neural Network-based recommendation system with a Tkinter GUI, allowing users to generate school recommendations by loading and preprocessing data, making predictions with a pre-trained model, evaluating performance, and displaying results in the interface.</li>
     <li><code>vectorizer.pkl </code>:The `vectorizer.pkl` file contains a pre-trained TF-IDF vectorizer used to transform text data into numerical features for input into a machine learning model.</li>
 </ul>
