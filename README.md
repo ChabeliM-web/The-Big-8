@@ -69,7 +69,7 @@
     <li><code>chatbot_model_final.pth </code>:The `chatbot_model_final.pth` file stores the trained parameters of a deep learning model used by the chatbot to generate responses based on user input.</li>
     <li><code>main.py</code>:This script implements a Graph Neural Network-based recommendation system with a Tkinter GUI, allowing users to generate school recommendations by loading and preprocessing data, making predictions with a pre-trained model, evaluating performance, and displaying results in the interface.</li>
     <li><code>vectorizer.pkl </code>:The `vectorizer.pkl` file contains a pre-trained TF-IDF vectorizer used to transform text data into numerical features for input into a machine learning model.</li>
-
+    
 <h2>License</h2>
 <p>This project is licensed under the MIT License.</p>
 
