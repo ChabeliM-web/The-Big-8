@@ -49,7 +49,6 @@
 </ol>
 
 <h2>Files and Directories</h2>
-<ul>
     <li><code>data_preparation.py<code>: This script loads and preprocesses user and school review data from CSV files, handling missing values, displaying data samples, and returning the cleaned data for further use.</li>
     <li><code>evaluate_and_predict.py</code>: This Python script evaluates a Graph Neural Network (GNN) model's performance for school recommendations by generating top 7 school predictions from user review data and calculating precision, recall, F1 score, and Mean Average Precision (MAP) for model accuracy.</li>
     <li><code>generate_user_reviews_with_ids.py</code>: This script generates random reviews and ratings for a set of schools, storing the simulated user feedback in a CSV file for use in training recommendation models or data analysis. </li>
@@ -70,8 +69,6 @@
     <li><code>chatbot_model_final.pth </code>:The `chatbot_model_final.pth` file stores the trained parameters of a deep learning model used by the chatbot to generate responses based on user input.</li>
     <li><code>main.py</code>:This script implements a Graph Neural Network-based recommendation system with a Tkinter GUI, allowing users to generate school recommendations by loading and preprocessing data, making predictions with a pre-trained model, evaluating performance, and displaying results in the interface.</li>
     <li><code>vectorizer.pkl </code>:The `vectorizer.pkl` file contains a pre-trained TF-IDF vectorizer used to transform text data into numerical features for input into a machine learning model.</li>
-</ul>
-
 
 <h2>License</h2>
 <p>This project is licensed under the MIT License.</p>
