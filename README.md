@@ -14,7 +14,7 @@
     <li><strong> Chatbot system:</strong> An interactive tool that uses AI to respond to user queries, offering personalized information and assistance.</li>
     <li><strong>Natural Language Processing:</strong> A field of AI focused on enabling machines to understand, interpret, and generate human language.</li>
     <li><strong>Speech Synthisis:</strong> Technology that converts text into spoken language, allowing systems to communicate with users via audio.</li>
-    <li><strong> Time Series Analysis:</strong> A method of analyzing data points collected over time to identify trends, patterns, and potential predictions.</li>
+    
    
 </ul>
 
